@@ -1,0 +1,81 @@
+
+/* ---------------------------------------NAV BAR------------------------------------------- */
+.navbar__container-fixedtop {
+    background-color: rgb(181, 235, 217);
+}
+
+.navbar__container-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar__container-logobox {
+    background-color: brown;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-logo {
+    width: 150px;
+}
+
+
+.navbar__list {
+    width: 60%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar__list a {
+    display: block;
+    background-color: #dddddd;
+    text-align: center;
+  }
+
+.navbar__list :active {
+    background-color: black;    
+}
+
+/* ///------------------------------BANNER--------------------------------- */
+.banner__container {
+    background-color: darkgray;
+    height: 200px;
+}
+
+
+
+/* ///------------------------------CONTACT--------------------------------- */
+
+.contact__container {
+    background-color: darkseagreen;
+}
+
+.contact__container-map {
+    height: 150px;
+    width: 90%;
+    background-color: coral;
+}
+
+.contact__container-form {
+    height: 150px;
+    width: 90%;
+    background-color: darkcyan;
+}
+
+/* ///------------------------------FOOTER--------------------------------- */
+
+.footer__container {
+    background-color: darksalmon;
+    height: 180px;
+}
+
